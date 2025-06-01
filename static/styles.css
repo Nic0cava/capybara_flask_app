@@ -1,0 +1,38 @@
+body {
+    background-color: #e68863;
+}
+
+.flex-container-img {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  height: 50vh;           /* full height of the viewport */
+}
+
+h1 {
+    display: flex;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;        /* ensures wrapped lines are centered */
+}
+
+h2 {
+    display: flex;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;        
+  margin-top: 100px;   /* adds space *outside* above the text */
+}
+
+h3 {
+    display: flex;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;        
+}
+
+
+img {
+  max-width: 100%; /* makes image responsive */
+  height: 200px;
+}
